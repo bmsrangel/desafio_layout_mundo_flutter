@@ -2,38 +2,17 @@ import 'package:flutter/material.dart';
 
 import 'pages/home/home_page.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(LayoutChallengeApp());
 
-class MyApp extends StatelessWidget {
+class LayoutChallengeApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Desafio mundo_flutter',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
-    );
-  }
-}
-
-class MyHomePage extends StatefulWidget {
-  MyHomePage({Key key, this.title}) : super(key: key);
-
-  final String title;
-
-  @override
-  _MyHomePageState createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Colors.teal,
-      body: Center(
-        child: HomePageWidget(),
-      ),
+      home: HomePageWidget(),
     );
   }
 }

@@ -1,16 +1,7 @@
-# desafio_mundo_flutter
+# Desafio de Layout mundo_flutter
 
-A new Flutter project.
+<img src="screenshots/home_page.png" width="200" />
 
-## Getting Started
+## Execução
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Para executar este projeto, basta clonar o repositório, executar na raiz do diretório o comando "pub get" para download dos pacotes e executá-lo em um emulador ou dispositivo físico
